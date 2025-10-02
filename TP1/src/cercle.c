@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <string.h>
+#include <stdio.h>   
+#include <math.h>    
 
 int main() {
-double pi = 3.1416;
-double r = 6;  
-    printf("L'air du cercle = %f", pi*(r*r));
-   printf("Le périmètre du cercle = %f", pi*(r+r));
+    double pi = 3.14159; 
+    double rayon = 6.0;
+    printf("L'air du cercle =%f, pi*(rayon*rayon)");
+    printf("Le perimetre du cercle =%f, pi*(rayon+rayon)");
+    }
 }
-
